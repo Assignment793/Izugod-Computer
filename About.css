@@ -1,0 +1,188 @@
+body{
+    background: linear-gradient(
+        135deg,
+        #1e3c72,
+        #2a5298,
+        #6dd5ed
+    );
+    margin:5px;
+    padding-top: 150px;
+    
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    align-content: center;
+    
+}
+h1{
+    position: relative;
+}
+.headd{
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /*border: 1px solid rgba(255, 255, 255,0.2);
+    border-radius: 15px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 15px; 
+    gap: 10px;
+}
+#name{
+    color: #FFD700;
+    display: inline-block;
+    align-content: center;  
+    margin:0;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0cm;
+    overflow: hidden;
+}
+
+.navbar{
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255,0.2);
+    border-radius: 5px;
+    position:static;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+}
+.navbar a.active{
+    font-size: 30px;
+    color: #7ad9ee;
+    border: none;
+}
+.navbar a:hover{
+    font-size: 40px;
+    color: #7ad9ee;
+    animation: zoomIn 1s ease-in-out;
+    animation: glow 1s ease-in-out infinite alternate;
+    border: none;
+
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #ffe207;
+    }
+    to {
+        box-shadow: 0 0 20px #ffe207;
+    }
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+@keyframes zoomIn {
+    from {
+        transform: skew(0.5);
+    }
+    to {
+        transform: skew(1);
+    }
+}
+.section{
+    text-align: justify;
+    align-items: justify;
+    font-size: 20px;
+    display: inline;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 20px;  
+    margin: 10px;
+}
+
+section{
+    width: 100%;
+    color: lightgray;
+    font-size: 20px;
+    text-align: justify;
+    align-items: justify;
+    display: inline;
+    line-height: 1.8;
+    padding: 20px;
+}
+/* article{
+    width: 20%;
+    font-size: 30px;
+    text-align: justify;
+    align-items: justify;
+    display: inline;
+    line-height: 1.8;
+    padding: 20px;
+
+}
+article p{
+    font-size: 30px;
+    text-align:justify;
+    word-spacing: normal;
+    letter-spacing: normal;
+    line-height: 1.5;
+    color: lightgray;
+}
+    */
+.wctc {
+    color:white;
+    border: 1px solid rgba(255, 255, 255,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+/* Footer styles */
+.footer {
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255,0.2);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ffb703;
+}
+.footer a{
+    color: hsl(241, 33%, 31%);
+    text-decoration: none;
+}
+.footer h2{
+    color: #2d2d2d;
+    font-size: 40px;
+}
+.classroom{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.hn{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
